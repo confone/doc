@@ -8,7 +8,7 @@ include 'config/mapping.php';
 
 $_URI = rtrim($_SERVER['REQUEST_URI'], '/');
 
-$_WSESSION = WSession::instance();
+$_DSESSION = DSession::instance();
 
 date_default_timezone_set('America/Vancouver');
 header('X-Powered-By: Confone Inc.');
