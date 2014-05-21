@@ -5,7 +5,7 @@ $account_url = 'https://staging.account.confone.com';
 $security_url = 'https://staging.security.confone.com';
 $content_url = 'https://staging.content.confone.com';
 $www_url = 'https://staging.www.confone.com';
-$help_url = 'http://local.help.confone.com';
+$help_url = 'https://staging.help.confone.com';
 
 
 // =======================================================================================
