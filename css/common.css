@@ -72,6 +72,25 @@ div#copy_right {
 	font-size: .8em;
 	padding-top: 8px;
 }
+div#left {
+	position:fixed;
+	float:left;
+	width:180px;
+	padding:20px;
+	color:#aaa;
+	font-weight:bold;
+	font-size:.8em;
+}
+div#left div {
+	padding:10px 0px 20px 20px;
+}
+div#left div a {
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	margin-bottom:5px;
+	color:#4183c4;
+}
 .round4 {
 	-webkit-border-top-right-radius: 4px;
 	-webkit-border-top-left-radius: 4px;

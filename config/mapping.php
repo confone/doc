@@ -1,3 +1,6 @@
 <?php
-register('/index', new ConfoneHomeController());
+register('/index',    new GeneralHomeController());
+register('/content',  new ContentHomeController());
+register('/security', new SecurityHomeController());
+register('/faq',      new FaqHomeController());
 ?>
